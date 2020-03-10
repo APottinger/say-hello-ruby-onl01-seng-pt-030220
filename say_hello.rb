@@ -1,5 +1,5 @@
-def greeting(name = "Ruby Programmer")
-  puts "Hello #{name}!"
+def greeting(age, name = "Ruby Programmer")
+  puts "Hello, I am #{age} years old and my name is #{name}!"
 end
 
-greeting("Sophia")
+greeting("23", "Sophia")
